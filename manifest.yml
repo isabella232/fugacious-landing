@@ -1,8 +1,0 @@
-applications:
-- name: fugacious
-  # buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-  host: fugacious
-  domain: 18f.gov
-  memory: 64M
-  env:
-    FORCE_HTTPS: true
